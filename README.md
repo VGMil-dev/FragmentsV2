@@ -1,4 +1,4 @@
-# LMS GitHub Forks
+# FragmentsV2
 
 Plataforma educativa moderna construida con Next.js (Frontend) y Nest.js (Backend), diseñada para enseñar programación utilizando flujos de trabajo reales de la industria (GitHub Forks y Pull Requests).
 
