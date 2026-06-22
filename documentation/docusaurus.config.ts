@@ -9,6 +9,11 @@ const config: Config = {
   tagline: 'Enseñando programación con flujos reales de GitHub',
   favicon: 'img/favicon.ico',
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -71,6 +76,11 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Documentación',
+        },
+        {
+          to: '/docs/bitacora',
+          label: 'Bitácora',
+          position: 'left',
         },
         {
           href: 'https://github.com/VGMil-dev/FragmentsV2',

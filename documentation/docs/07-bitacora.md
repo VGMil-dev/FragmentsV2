@@ -1,4 +1,7 @@
-# Bitácora de Cambios (Changelog)
+---
+id: bitacora
+title: Bitácora
+---
 
 Este documento registra los cambios arquitectónicos, de diseño y técnicos significativos realizados en el proyecto FragmentsV2.
 
