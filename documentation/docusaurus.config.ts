@@ -78,9 +78,10 @@ const config: Config = {
           label: 'Documentación',
         },
         {
-          to: '/docs/bitacora',
-          label: 'Bitácora',
+          type: 'docSidebar',
+          sidebarId: 'bitacoraSidebar',
           position: 'left',
+          label: 'Bitácora',
         },
         {
           href: 'https://github.com/VGMil-dev/FragmentsV2',
@@ -97,7 +98,7 @@ const config: Config = {
           items: [
             {
               label: 'Documentación',
-              to: '/docs/narrativa',
+              to: '/docs/main/narrativa',
             },
           ],
         },
